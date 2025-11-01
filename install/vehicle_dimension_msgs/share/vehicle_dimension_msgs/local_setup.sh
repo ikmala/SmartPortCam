@@ -1,0 +1,1 @@
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/ament_cmake_environment_hooks/local_setup.sh

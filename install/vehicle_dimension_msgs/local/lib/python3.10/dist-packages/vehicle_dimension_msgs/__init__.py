@@ -1,0 +1,1 @@
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_generator_py/vehicle_dimension_msgs/__init__.py

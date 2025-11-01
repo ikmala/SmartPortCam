@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vehicle_dimension_msgs__py",
+		"source" : "/home/ais/smartport_ws/build/vehicle_dimension_msgs/vehicle_dimension_msgs__py"
+	}
+}

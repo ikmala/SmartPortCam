@@ -1,0 +1,5 @@
+std_msgs/Header header
+string category
+float64 tariff
+string currency
+vehicle_dimension_msgs/VehicleDimension dimension

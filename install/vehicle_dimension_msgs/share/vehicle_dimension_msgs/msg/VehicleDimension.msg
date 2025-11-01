@@ -1,0 +1,1 @@
+/home/ais/smartport_ws/src/vehicle_dimension_msgs/msg/VehicleDimension.msg

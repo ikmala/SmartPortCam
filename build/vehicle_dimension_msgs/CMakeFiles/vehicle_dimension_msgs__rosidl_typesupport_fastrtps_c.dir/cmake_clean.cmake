@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support_c.cpp.o"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support_c.cpp.o.d"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support_c.cpp.o"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support_c.cpp.o.d"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support_c.cpp.o"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support_c.cpp.o.d"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support_c.cpp.o"
+  "CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support_c.cpp.o.d"
+  "libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

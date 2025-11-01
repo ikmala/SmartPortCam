@@ -1,0 +1,9 @@
+source;share/dimension_estimator/hook/pythonpath.ps1
+source;share/dimension_estimator/hook/pythonpath.dsv
+source;share/dimension_estimator/hook/pythonpath.sh
+source;share/dimension_estimator/hook/ament_prefix_path.ps1
+source;share/dimension_estimator/hook/ament_prefix_path.dsv
+source;share/dimension_estimator/hook/ament_prefix_path.sh
+source;../../build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.ps1
+source;../../build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.dsv
+source;../../build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.sh

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+dimension_estimator/__init__.py
+dimension_estimator/dimension_estimator.py
+dimension_estimator.egg-info/PKG-INFO
+dimension_estimator.egg-info/SOURCES.txt
+dimension_estimator.egg-info/dependency_links.txt
+dimension_estimator.egg-info/entry_points.txt
+dimension_estimator.egg-info/requires.txt
+dimension_estimator.egg-info/top_level.txt
+dimension_estimator.egg-info/zip-safe
+resource/dimension_estimator

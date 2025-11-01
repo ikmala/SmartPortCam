@@ -1,0 +1,6 @@
+Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ais/smartport_ws/src/vehicle_dimension_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/vehicle_dimension_msgs
+Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ais/smartport_ws/src/vehicle_dimension_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/vehicle_dimension_msgs
+Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8
+Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8
+Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs
+Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs

@@ -1,0 +1,1 @@
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_generator_cpp/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__traits.hpp

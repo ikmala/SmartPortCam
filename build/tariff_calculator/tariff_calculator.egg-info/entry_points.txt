@@ -1,0 +1,3 @@
+[console_scripts]
+tariff_calculator = tariff_calculator.tariff_calculator:main
+

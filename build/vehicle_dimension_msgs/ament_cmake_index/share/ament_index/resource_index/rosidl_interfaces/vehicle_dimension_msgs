@@ -1,0 +1,8 @@
+msg/VehicleBoundingBox.idl
+msg/VehicleBoundingBox.msg
+msg/VehicleBoundingBoxArray.idl
+msg/VehicleBoundingBoxArray.msg
+msg/VehicleDimension.idl
+msg/VehicleDimension.msg
+msg/VehicleTariff.idl
+msg/VehicleTariff.msg

@@ -1,0 +1,4 @@
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_adapter/vehicle_dimension_msgs:msg/VehicleDimension.idl
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_adapter/vehicle_dimension_msgs:msg/VehicleBoundingBox.idl
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_adapter/vehicle_dimension_msgs:msg/VehicleBoundingBoxArray.idl
+/home/ais/smartport_ws/build/vehicle_dimension_msgs/rosidl_adapter/vehicle_dimension_msgs:msg/VehicleTariff.idl

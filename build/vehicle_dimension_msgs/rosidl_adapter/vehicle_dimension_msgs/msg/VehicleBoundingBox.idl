@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vehicle_dimension_msgs/msg/VehicleBoundingBox.msg
+// generated code does not contain a copyright notice
+
+
+module vehicle_dimension_msgs {
+  module msg {
+    struct VehicleBoundingBox {
+      int32 class_id;
+
+      float confidence;
+
+      int32 xmin;
+
+      int32 ymin;
+
+      int32 xmax;
+
+      int32 ymax;
+    };
+  };
+};

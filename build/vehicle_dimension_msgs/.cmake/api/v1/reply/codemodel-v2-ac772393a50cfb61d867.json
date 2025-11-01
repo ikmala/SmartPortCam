@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cf06fb16bf1a16dcbd14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vehicle_dimension_msgs__py",
+					"jsonFile" : "directory-vehicle_dimension_msgs__py-75bd0587082793f0f64b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ais/smartport_ws/build/vehicle_dimension_msgs/vehicle_dimension_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vehicle_dimension_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vehicle_dimension_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vehicle_dimension_msgs_egg-ca307a74f09e56edbd3f.json",
+					"name" : "ament_cmake_python_build_vehicle_dimension_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vehicle_dimension_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vehicle_dimension_msgs-b4eca6ce0bc66a574cfc.json",
+					"name" : "ament_cmake_python_symlink_vehicle_dimension_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5cca37f0728817ec2c04.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs-f6c3986001a1f6dcc37c.json",
+					"name" : "vehicle_dimension_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__cpp-99ffa2c3cc109253689d.json",
+					"name" : "vehicle_dimension_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vehicle_dimension_msgs__py::@bc24ab36a8c43d1d0270",
+					"jsonFile" : "target-vehicle_dimension_msgs__py-e42341301fb5b01fc948.json",
+					"name" : "vehicle_dimension_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_generator_c-c71507f2d0230b5dee93.json",
+					"name" : "vehicle_dimension_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_generator_py-91cca8653d4e05f398b7.json",
+					"name" : "vehicle_dimension_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_c-ade5608cca22a8e023b2.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_c__pyext-5e4d7f460f6c32956fbf.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_cpp-6624f68d52b8895f5da0.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c-101213914dc249627c74.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c__pyext-33149f2dd99262258c34.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp-7f5c6c1f52028386e652.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_introspection_c-09abe4bd3f844d958a2c.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_introspection_c__pyext-dee9c100bcdd09e6961c.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp-e63b0fcc9f0c744a902d.json",
+					"name" : "vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehicle_dimension_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehicle_dimension_msgs_uninstall-0eb4e763c3ade3deb219.json",
+					"name" : "vehicle_dimension_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ais/smartport_ws/build/vehicle_dimension_msgs",
+		"source" : "/home/ais/smartport_ws/src/vehicle_dimension_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

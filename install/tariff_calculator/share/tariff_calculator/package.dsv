@@ -1,0 +1,9 @@
+source;share/tariff_calculator/hook/pythonpath.ps1
+source;share/tariff_calculator/hook/pythonpath.dsv
+source;share/tariff_calculator/hook/pythonpath.sh
+source;share/tariff_calculator/hook/ament_prefix_path.ps1
+source;share/tariff_calculator/hook/ament_prefix_path.dsv
+source;share/tariff_calculator/hook/ament_prefix_path.sh
+source;../../build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.ps1
+source;../../build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.dsv
+source;../../build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.sh

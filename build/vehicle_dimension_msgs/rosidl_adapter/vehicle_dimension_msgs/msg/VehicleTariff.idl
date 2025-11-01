@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vehicle_dimension_msgs/msg/VehicleTariff.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "vehicle_dimension_msgs/msg/VehicleDimension.idl"
+
+module vehicle_dimension_msgs {
+  module msg {
+    struct VehicleTariff {
+      std_msgs::msg::Header header;
+
+      string category;
+
+      double tariff;
+
+      string currency;
+
+      vehicle_dimension_msgs::msg::VehicleDimension dimension;
+    };
+  };
+};
