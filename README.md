@@ -35,3 +35,27 @@ ros2 run rqt_image_view rqt_image_view --ros-args -r /image:=/vehicle/detections
 ```
 
 Atau tambahkan display `Image` di RViz dan pilih topik yang sama.
+
+
+
+Cara menjalankannya
+
+* terminal 1 (menjalankan kameranya)
+ - source ~/smartport_ws/install/setup.bash
+ - ros2 launch realsense2_camera rs_launch.py   align_depth.enable:=true   enable_sync:=true   enable_infra1:=false   enable_infra2:=false   pointcloud.enable:=false
+
+* terminal 2 (menjalankan yolonya)
+ - source ~/smartport_ws/install/setup.bash
+ - ros2 run yolov8_detector yolov8_detector --ros-args   -p model_path:=/home/ais/smartport_ws/yolov8n.pt   -p image_topic:=/camera/camera/color/image_raw   -p class_ids:="[2,3,5,7]"   -p max_detections:=1   -p display_results:=true   -p publish_annotated_image:=true
+
+* terminal 3 (menjalankan perhitungan ukuran)
+ - source ~/smartport_ws/install/setup.bash
+ - ros2 run dimension_estimator dimension_estimator --ros-args   -p bbox_topic:=/vehicle/bounding_boxes   -p depth_image_topic:=/camera/camera/aligned_depth_to_color/image_raw   -p depth_camera_info_topic:=/camera/camera/aligned_depth_to_color/camera_info   -p min_valid_points:=200
+
+* temrinal 4 (menjalankan GUInya)
+ - source ~/smartport_ws/install/setup.bash
+ - ros2 run dimension_gui dimension_gui --ros-args   -p depth_camera_info_topic:=/camera/camera/aligned_depth_to_color/camera_info
+
+
+
+kurang menampilkan harga saja dan kalkulasi harga nya per meter
