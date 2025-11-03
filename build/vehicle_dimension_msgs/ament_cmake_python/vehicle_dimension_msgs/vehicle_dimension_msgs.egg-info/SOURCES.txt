@@ -4,3 +4,8 @@ vehicle_dimension_msgs.egg-info/PKG-INFO
 vehicle_dimension_msgs.egg-info/SOURCES.txt
 vehicle_dimension_msgs.egg-info/dependency_links.txt
 vehicle_dimension_msgs.egg-info/top_level.txt
+vehicle_dimension_msgs/msg/__init__.py
+vehicle_dimension_msgs/msg/_vehicle_bounding_box.py
+vehicle_dimension_msgs/msg/_vehicle_bounding_box_array.py
+vehicle_dimension_msgs/msg/_vehicle_dimension.py
+vehicle_dimension_msgs/msg/_vehicle_tariff.py

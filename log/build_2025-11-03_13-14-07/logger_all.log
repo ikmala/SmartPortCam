@@ -1,0 +1,605 @@
+[0.172s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.173s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c554ef12500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c554f00f400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c554f00f400>>, mixin_verb=('build',))[0m
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.497s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ais/smartport_ws'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extension 'ignore'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extension 'ignore_ament_install'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extensions ['colcon_pkg']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extension 'colcon_pkg'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extensions ['colcon_meta']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extension 'colcon_meta'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extensions ['ros']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_estimator) by extension 'ros'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dimension_estimator' with type 'ros.ament_python' and name 'dimension_estimator'[0m
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extension 'ignore'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extension 'ignore_ament_install'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extensions ['colcon_pkg']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extension 'colcon_pkg'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extensions ['colcon_meta']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extension 'colcon_meta'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extensions ['ros']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dimension_gui) by extension 'ros'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dimension_gui' with type 'ros.ament_python' and name 'dimension_gui'[0m
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_meta'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ros']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ros'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'cmake'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python_setup_py'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'[0m
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'[0m
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'[0m
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ros'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extension 'ignore'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extension 'ignore_ament_install'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extensions ['colcon_pkg']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extension 'colcon_pkg'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extensions ['colcon_meta']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extension 'colcon_meta'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extensions ['ros']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tariff_calculator) by extension 'ros'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tariff_calculator' with type 'ros.ament_python' and name 'tariff_calculator'[0m
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extension 'ignore'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extension 'ignore_ament_install'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extensions ['colcon_pkg']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extension 'colcon_pkg'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extensions ['colcon_meta']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extension 'colcon_meta'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extensions ['ros']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vehicle_dimension_msgs) by extension 'ros'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/vehicle_dimension_msgs' with type 'ros.ament_cmake' and name 'vehicle_dimension_msgs'[0m
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extension 'ignore'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extension 'ignore_ament_install'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extensions ['colcon_pkg']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extension 'colcon_pkg'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extensions ['colcon_meta']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extension 'colcon_meta'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extensions ['ros']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolov8_detector) by extension 'ros'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolov8_detector' with type 'ros.ament_python' and name 'yolov8_detector'[0m
+[0.549s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.549s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.549s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.549s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.549s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.573s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.573s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.577s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 461 installed packages in /opt/ros/humble[0m
+[0.581s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_args' from command line to 'None'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_target' from command line to 'None'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vehicle_dimension_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'vehicle_dimension_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/vehicle_dimension_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/vehicle_dimension_msgs', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/vehicle_dimension_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_args' from command line to 'None'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_target' from command line to 'None'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dimension_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/dimension_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/dimension_estimator', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/dimension_estimator', 'symlink_install': True, 'test_result_base': None}[0m
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_args' from command line to 'None'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_target' from command line to 'None'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dimension_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dimension_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/dimension_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/dimension_gui', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/dimension_gui', 'symlink_install': True, 'test_result_base': None}[0m
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.659s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}[0m
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}[0m
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_args' from command line to 'None'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_target' from command line to 'None'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_clean_first' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'cmake_force_configure' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'ament_cmake_args' from command line to 'None'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tariff_calculator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'tariff_calculator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/tariff_calculator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/tariff_calculator', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/tariff_calculator', 'symlink_install': True, 'test_result_base': None}[0m
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_target' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov8_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ais/smartport_ws/build/yolov8_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ais/smartport_ws/install/yolov8_detector', 'merge_install': False, 'path': '/home/ais/smartport_ws/src/yolov8_detector', 'symlink_install': True, 'test_result_base': None}[0m
+[0.662s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.663s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.664s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/vehicle_dimension_msgs' with build type 'ament_cmake'
+[0.664s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ais/smartport_ws/src/vehicle_dimension_msgs'
+[0.666s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.672s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.672s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.682s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8[0m
+[0.685s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_camera_msgs -- -j8 -l8[0m
+[1.608s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8[0m
+[1.628s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs[0m
+[1.634s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_camera_msgs -- -j8 -l8[0m
+[1.636s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_camera_msgs[0m
+[1.775s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(vehicle_dimension_msgs)
+[1.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs[0m
+[1.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs' for CMake module files
+[1.782s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs' for CMake config files
+[1.785s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vehicle_dimension_msgs', 'cmake_prefix_path')
+[1.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.ps1'
+[1.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.dsv'
+[1.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.sh'
+[1.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib'
+[1.790s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vehicle_dimension_msgs', 'ld_library_path_lib')
+[1.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.ps1'
+[1.792s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.dsv'
+[1.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.sh'
+[1.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/bin'
+[1.796s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/pkgconfig/vehicle_dimension_msgs.pc'
+[1.796s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/python3.10/site-packages'
+[1.797s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/bin'
+[1.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.ps1'
+[1.799s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.dsv'
+[1.801s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.sh'
+[1.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.bash'
+[1.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.zsh'
+[1.806s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/colcon-core/packages/vehicle_dimension_msgs)
+[1.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(vehicle_dimension_msgs)
+[1.808s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs' for CMake module files
+[1.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs' for CMake config files
+[1.811s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vehicle_dimension_msgs', 'cmake_prefix_path')
+[1.812s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.ps1'
+[1.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.dsv'
+[1.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/cmake_prefix_path.sh'
+[1.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib'
+[1.815s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vehicle_dimension_msgs', 'ld_library_path_lib')
+[1.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.ps1'
+[1.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.dsv'
+[1.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/hook/ld_library_path_lib.sh'
+[1.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/bin'
+[1.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/pkgconfig/vehicle_dimension_msgs.pc'
+[1.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/python3.10/site-packages'
+[1.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/vehicle_dimension_msgs/bin'
+[1.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.ps1'
+[1.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.dsv'
+[1.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.sh'
+[1.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.bash'
+[1.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.zsh'
+[1.823s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/vehicle_dimension_msgs/share/colcon-core/packages/vehicle_dimension_msgs)
+[1.824s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/dimension_estimator' with build type 'ament_python'
+[1.825s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_estimator', 'ament_prefix_path')
+[1.825s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/ament_prefix_path.ps1'
+[1.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/ament_prefix_path.dsv'
+[1.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/ament_prefix_path.sh'
+[1.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.828s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.833s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/dimension_gui' with build type 'ament_python'
+[1.833s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_gui', 'ament_prefix_path')
+[1.834s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/ament_prefix_path.ps1'
+[1.834s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/ament_prefix_path.dsv'
+[1.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/ament_prefix_path.sh'
+[1.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.836s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.844s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/tariff_calculator' with build type 'ament_python'
+[1.844s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tariff_calculator', 'ament_prefix_path')
+[1.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/ament_prefix_path.ps1'
+[1.845s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/ament_prefix_path.dsv'
+[1.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/ament_prefix_path.sh'
+[1.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.848s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.854s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/yolov8_detector' with build type 'ament_python'
+[1.854s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_detector', 'ament_prefix_path')
+[1.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/ament_prefix_path.ps1'
+[1.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/ament_prefix_path.dsv'
+[1.856s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/ament_prefix_path.sh'
+[1.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.857s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.864s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[1.864s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs' for CMake module files
+[1.865s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_camera_msgs[0m
+[1.866s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs' for CMake config files
+[1.869s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib'
+[1.871s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/bin'
+[1.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.875s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/bin'
+[1.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.877s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.878s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.878s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.879s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[1.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs' for CMake module files
+[1.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs' for CMake config files
+[1.882s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.884s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.884s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.885s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib'
+[1.885s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.885s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.886s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.886s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.887s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/bin'
+[1.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera_msgs/bin'
+[1.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.891s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.892s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.892s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.894s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[1.894s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_camera'
+[1.894s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.895s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.900s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[1.900s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ais/smartport_ws/src/realsense-ros/realsense2_description'
+[1.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.901s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.395s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ais/smartport_ws/src/dimension_estimator'
+[2.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.396s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.880s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ais/smartport_ws/src/dimension_gui'
+[2.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.881s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.415s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ais/smartport_ws/src/tariff_calculator'
+[3.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.415s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.901s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ais/smartport_ws/src/yolov8_detector'
+[3.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.901s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.914s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_camera -- -j8 -l8[0m
+[3.918s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_description -- -j8 -l8[0m
+[4.007s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_description -- -j8 -l8[0m
+[4.009s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_description[0m
+[4.083s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[4.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description' for CMake module files
+[4.086s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_description[0m
+[4.092s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description' for CMake config files
+[4.095s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[4.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[4.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[4.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[4.100s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/bin'
+[4.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[4.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/lib/python3.10/site-packages'
+[4.107s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/bin'
+[4.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[4.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[4.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[4.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[4.118s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[4.119s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[4.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[4.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description' for CMake module files
+[4.127s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description' for CMake config files
+[4.129s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[4.131s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[4.132s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[4.133s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[4.134s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/bin'
+[4.134s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[4.135s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/lib/python3.10/site-packages'
+[4.135s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_description/bin'
+[4.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[4.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[4.145s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[4.147s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[4.148s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[4.149s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[4.269s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_camera -- -j8 -l8[0m
+[4.272s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_camera[0m
+[4.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera)
+[4.346s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera' for CMake module files
+[4.352s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_camera[0m
+[4.352s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera' for CMake config files
+[4.353s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[4.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[4.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[4.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[4.359s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib'
+[4.359s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[4.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[4.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[4.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[4.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/bin'
+[4.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[4.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[4.366s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/bin'
+[4.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[4.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[4.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[4.370s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[4.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[4.372s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[4.374s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera)
+[4.375s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera' for CMake module files
+[4.377s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera' for CMake config files
+[4.378s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[4.378s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[4.379s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[4.380s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[4.382s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib'
+[4.382s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[4.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[4.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[4.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[4.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/bin'
+[4.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[4.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[4.387s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/realsense2_camera/bin'
+[4.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[4.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[4.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[4.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[4.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[4.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[4.921s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/tariff_calculator': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/tariff_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/tariff_calculator/build --no-deps symlink_data[0m
+[4.939s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/dimension_gui': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build --no-deps symlink_data[0m
+[5.063s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/dimension_estimator/share/ament_index/resource_index/packages/dimension_estimator[0m
+[5.063s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.xml[0m
+[5.063s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/dimension_estimator/lib/dimension_estimator/dimension_estimator[0m
+[5.068s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/dimension_estimator': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_estimator/build --no-deps symlink_data --force[0m
+[5.075s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/yolov8_detector/share/ament_index/resource_index/packages/yolov8_detector[0m
+[5.075s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.xml[0m
+[5.075s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/launch/yolov8_with_dimensions.launch.py[0m
+[5.076s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mWhile undoing a previous installation files outside the Python library path are being ignored: /home/ais/smartport_ws/install/yolov8_detector/lib/yolov8_detector/yolov8_detector[0m
+[5.080s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ais/smartport_ws/build/yolov8_detector': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build --no-deps symlink_data --force[0m
+[6.090s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_gui', 'pythonpath_develop')
+[6.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/dimension_gui/share/dimension_gui/hook/pythonpath_develop.ps1'
+[6.092s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/dimension_gui' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build --no-deps symlink_data[0m
+[6.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/build/dimension_gui/share/dimension_gui/hook/pythonpath_develop.dsv'
+[6.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/dimension_gui/share/dimension_gui/hook/pythonpath_develop.sh'
+[6.097s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui' for CMake module files
+[6.098s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui' for CMake config files
+[6.099s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui/lib'
+[6.099s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui/bin'
+[6.099s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui/lib/pkgconfig/dimension_gui.pc'
+[6.100s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages'
+[6.100s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_gui', 'pythonpath')
+[6.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/pythonpath.ps1'
+[6.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/pythonpath.dsv'
+[6.102s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/hook/pythonpath.sh'
+[6.103s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_gui/bin'
+[6.103s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dimension_gui)
+[6.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/package.ps1'
+[6.105s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/package.dsv'
+[6.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/package.sh'
+[6.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/package.bash'
+[6.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/package.zsh'
+[6.109s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/dimension_gui/share/colcon-core/packages/dimension_gui)
+[6.111s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tariff_calculator', 'pythonpath_develop')
+[6.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.ps1'
+[6.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.dsv'
+[6.114s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/tariff_calculator' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/tariff_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/tariff_calculator/build --no-deps symlink_data[0m
+[6.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/tariff_calculator/share/tariff_calculator/hook/pythonpath_develop.sh'
+[6.116s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator' for CMake module files
+[6.117s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator' for CMake config files
+[6.118s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator/lib'
+[6.118s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator/bin'
+[6.118s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator/lib/pkgconfig/tariff_calculator.pc'
+[6.118s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages'
+[6.118s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tariff_calculator', 'pythonpath')
+[6.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/pythonpath.ps1'
+[6.120s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/pythonpath.dsv'
+[6.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/hook/pythonpath.sh'
+[6.122s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/tariff_calculator/bin'
+[6.122s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tariff_calculator)
+[6.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/package.ps1'
+[6.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/package.dsv'
+[6.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/package.sh'
+[6.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/package.bash'
+[6.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/tariff_calculator/share/tariff_calculator/package.zsh'
+[6.129s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/tariff_calculator/share/colcon-core/packages/tariff_calculator)
+[6.157s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_estimator', 'pythonpath_develop')
+[6.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.ps1'
+[6.159s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/dimension_estimator' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_estimator/build --no-deps symlink_data --force[0m
+[6.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.dsv'
+[6.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/dimension_estimator/share/dimension_estimator/hook/pythonpath_develop.sh'
+[6.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator' for CMake module files
+[6.162s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator' for CMake config files
+[6.162s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator/lib'
+[6.162s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator/bin'
+[6.163s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator/lib/pkgconfig/dimension_estimator.pc'
+[6.163s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages'
+[6.163s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dimension_estimator', 'pythonpath')
+[6.163s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/pythonpath.ps1'
+[6.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/pythonpath.dsv'
+[6.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/hook/pythonpath.sh'
+[6.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/dimension_estimator/bin'
+[6.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dimension_estimator)
+[6.167s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.ps1'
+[6.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.dsv'
+[6.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.sh'
+[6.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.bash'
+[6.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator/package.zsh'
+[6.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/dimension_estimator/share/colcon-core/packages/dimension_estimator)
+[6.223s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_detector', 'pythonpath_develop')
+[6.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/yolov8_detector/share/yolov8_detector/hook/pythonpath_develop.ps1'
+[6.224s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ais/smartport_ws/build/yolov8_detector' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build --no-deps symlink_data --force[0m
+[6.225s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/build/yolov8_detector/share/yolov8_detector/hook/pythonpath_develop.dsv'
+[6.226s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/build/yolov8_detector/share/yolov8_detector/hook/pythonpath_develop.sh'
+[6.227s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector' for CMake module files
+[6.227s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector' for CMake config files
+[6.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector/lib'
+[6.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector/bin'
+[6.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector/lib/pkgconfig/yolov8_detector.pc'
+[6.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages'
+[6.228s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_detector', 'pythonpath')
+[6.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/pythonpath.ps1'
+[6.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/pythonpath.dsv'
+[6.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/hook/pythonpath.sh'
+[6.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ais/smartport_ws/install/yolov8_detector/bin'
+[6.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolov8_detector)
+[6.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.ps1'
+[6.231s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.dsv'
+[6.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.sh'
+[6.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.bash'
+[6.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/package.zsh'
+[6.233s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ais/smartport_ws/install/yolov8_detector/share/colcon-core/packages/yolov8_detector)
+[6.233s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[6.233s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[6.233s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[6.233s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[6.242s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.242s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.242s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[6.253s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[6.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ais/smartport_ws/install/local_setup.ps1'
+[6.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ais/smartport_ws/install/_local_setup_util_ps1.py'
+[6.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ais/smartport_ws/install/setup.ps1'
+[6.258s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ais/smartport_ws/install/local_setup.sh'
+[6.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ais/smartport_ws/install/_local_setup_util_sh.py'
+[6.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ais/smartport_ws/install/setup.sh'
+[6.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ais/smartport_ws/install/local_setup.bash'
+[6.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ais/smartport_ws/install/setup.bash'
+[6.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ais/smartport_ws/install/local_setup.zsh'
+[6.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ais/smartport_ws/install/setup.zsh'

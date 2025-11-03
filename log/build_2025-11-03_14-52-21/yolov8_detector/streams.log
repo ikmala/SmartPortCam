@@ -1,0 +1,25 @@
+[3.365s] Invoking command in '/home/ais/smartport_ws/src/yolov8_detector': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /home/ais/smartport_ws/build/yolov8_detector/build install --record /home/ais/smartport_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data
+[4.088s] running egg_info
+[4.090s] writing ../../build/yolov8_detector/yolov8_detector.egg-info/PKG-INFO
+[4.092s] writing dependency_links to ../../build/yolov8_detector/yolov8_detector.egg-info/dependency_links.txt
+[4.093s] writing entry points to ../../build/yolov8_detector/yolov8_detector.egg-info/entry_points.txt
+[4.094s] writing requirements to ../../build/yolov8_detector/yolov8_detector.egg-info/requires.txt
+[4.094s] writing top-level names to ../../build/yolov8_detector/yolov8_detector.egg-info/top_level.txt
+[4.101s] reading manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[4.103s] adding license file 'LICENSE'
+[4.104s] writing manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[4.104s] running build
+[4.105s] running build_py
+[4.105s] copying yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+[4.105s] running install
+[4.108s] running install_lib
+[4.108s] copying /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[4.108s] byte-compiling /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/yolov8_detector.py to yolov8_detector.cpython-310.pyc
+[4.117s] running install_data
+[4.117s] running install_egg_info
+[4.120s] removing '/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.1.0-py3.10.egg-info' (and everything under it)
+[4.120s] Copying ../../build/yolov8_detector/yolov8_detector.egg-info to /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.1.0-py3.10.egg-info
+[4.122s] running install_scripts
+[4.160s] Installing yolov8_detector script to /home/ais/smartport_ws/install/yolov8_detector/lib/yolov8_detector
+[4.162s] writing list of installed files to '/home/ais/smartport_ws/build/yolov8_detector/install.log'
+[4.209s] Invoked command in '/home/ais/smartport_ws/src/yolov8_detector' returned '0': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /home/ais/smartport_ws/build/yolov8_detector/build install --record /home/ais/smartport_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data

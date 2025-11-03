@@ -1,0 +1,35 @@
+running develop
+Removing /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8-detector.egg-link (link to .)
+running egg_info
+writing ../../build/yolov8_detector/yolov8_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov8_detector/yolov8_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov8_detector/yolov8_detector.egg-info/entry_points.txt
+writing requirements to ../../build/yolov8_detector/yolov8_detector.egg-info/requires.txt
+writing top-level names to ../../build/yolov8_detector/yolov8_detector.egg-info/top_level.txt
+reading manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ais/smartport_ws/build/yolov8_detector/build
+creating /home/ais/smartport_ws/build/yolov8_detector/build/lib
+creating /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+copying yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+copying yolov8_detector/__init__.py -> /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+running install
+running install_lib
+creating /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+copying /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+copying /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector/__init__.py -> /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+byte-compiling /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/yolov8_detector.py to yolov8_detector.cpython-310.pyc
+byte-compiling /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/yolov8_detector -> /home/ais/smartport_ws/install/yolov8_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector
+creating /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/launch
+copying launch/yolov8_with_dimensions.launch.py -> /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/launch
+running install_egg_info
+Copying ../../build/yolov8_detector/yolov8_detector.egg-info to /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.1.0-py3.10.egg-info
+running install_scripts
+Installing yolov8_detector script to /home/ais/smartport_ws/install/yolov8_detector/lib/yolov8_detector
+writing list of installed files to '/home/ais/smartport_ws/build/yolov8_detector/install.log'

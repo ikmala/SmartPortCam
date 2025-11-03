@@ -12,6 +12,7 @@ setup(
             ["resource/" + package_name],
         ),
         ("share/" + package_name, ["package.xml"]),
+        ("share/" + package_name + "/launch", ["launch/yolov8_with_dimensions.launch.py"]),
     ],
     install_requires=["setuptools"],
     zip_safe=True,

@@ -1,0 +1,29 @@
+running develop
+Removing /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension-estimator.egg-link (link to .)
+running egg_info
+writing ../../build/dimension_estimator/dimension_estimator.egg-info/PKG-INFO
+writing dependency_links to ../../build/dimension_estimator/dimension_estimator.egg-info/dependency_links.txt
+writing entry points to ../../build/dimension_estimator/dimension_estimator.egg-info/entry_points.txt
+writing requirements to ../../build/dimension_estimator/dimension_estimator.egg-info/requires.txt
+writing top-level names to ../../build/dimension_estimator/dimension_estimator.egg-info/top_level.txt
+reading manifest file '../../build/dimension_estimator/dimension_estimator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/dimension_estimator/dimension_estimator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dimension_estimator/dimension_estimator.py -> /home/ais/smartport_ws/build/dimension_estimator/build/lib/dimension_estimator
+running install
+running install_lib
+creating /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator
+copying /home/ais/smartport_ws/build/dimension_estimator/build/lib/dimension_estimator/__init__.py -> /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator
+copying /home/ais/smartport_ws/build/dimension_estimator/build/lib/dimension_estimator/dimension_estimator.py -> /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator
+byte-compiling /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator/dimension_estimator.py to dimension_estimator.cpython-310.pyc
+running install_data
+copying resource/dimension_estimator -> /home/ais/smartport_ws/install/dimension_estimator/share/ament_index/resource_index/packages
+copying package.xml -> /home/ais/smartport_ws/install/dimension_estimator/share/dimension_estimator
+running install_egg_info
+Copying ../../build/dimension_estimator/dimension_estimator.egg-info to /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension_estimator-0.1.0-py3.10.egg-info
+running install_scripts
+Installing dimension_estimator script to /home/ais/smartport_ws/install/dimension_estimator/lib/dimension_estimator
+writing list of installed files to '/home/ais/smartport_ws/build/dimension_estimator/install.log'

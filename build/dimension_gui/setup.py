@@ -1,1 +1,0 @@
-/home/ais/smartport_ws/src/dimension_gui/setup.py

@@ -1,0 +1,17 @@
+[2.440s] Invoking command in '/home/ais/smartport_ws/build/tariff_calculator': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/tariff_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/tariff_calculator/build --no-deps symlink_data
+[3.196s] running develop
+[3.633s] running egg_info
+[3.633s] writing tariff_calculator.egg-info/PKG-INFO
+[3.633s] writing dependency_links to tariff_calculator.egg-info/dependency_links.txt
+[3.633s] writing entry points to tariff_calculator.egg-info/entry_points.txt
+[3.634s] writing requirements to tariff_calculator.egg-info/requires.txt
+[3.634s] writing top-level names to tariff_calculator.egg-info/top_level.txt
+[3.636s] reading manifest file 'tariff_calculator.egg-info/SOURCES.txt'
+[3.638s] writing manifest file 'tariff_calculator.egg-info/SOURCES.txt'
+[3.640s] running build_ext
+[3.640s] Creating /home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages/tariff-calculator.egg-link (link to .)
+[3.641s] Installing tariff_calculator script to /home/ais/smartport_ws/install/tariff_calculator/lib/tariff_calculator
+[3.642s] 
+[3.642s] Installed /home/ais/smartport_ws/build/tariff_calculator
+[3.642s] running symlink_data
+[3.713s] Invoked command in '/home/ais/smartport_ws/build/tariff_calculator' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/tariff_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/tariff_calculator/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+[2.881s] Invoking command in '/home/ais/smartport_ws/build/yolov8_detector': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build --no-deps symlink_data
+[3.388s] running develop
+[3.768s] running egg_info
+[3.769s] writing yolov8_detector.egg-info/PKG-INFO
+[3.769s] writing dependency_links to yolov8_detector.egg-info/dependency_links.txt
+[3.769s] writing entry points to yolov8_detector.egg-info/entry_points.txt
+[3.770s] writing requirements to yolov8_detector.egg-info/requires.txt
+[3.770s] writing top-level names to yolov8_detector.egg-info/top_level.txt
+[3.775s] reading manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+[3.776s] writing manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+[3.779s] running build_ext
+[3.779s] Creating /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8-detector.egg-link (link to .)
+[3.781s] Installing yolov8_detector script to /home/ais/smartport_ws/install/yolov8_detector/lib/yolov8_detector
+[3.781s] 
+[3.781s] Installed /home/ais/smartport_ws/build/yolov8_detector
+[3.782s] running symlink_data
+[3.877s] Invoked command in '/home/ais/smartport_ws/build/yolov8_detector' returned '0': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build --no-deps symlink_data

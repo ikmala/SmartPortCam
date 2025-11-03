@@ -1,0 +1,40 @@
+[3.347s] Invoking command in '/home/ais/smartport_ws/build/dimension_gui': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build
+[4.256s] running develop
+[4.933s] Removing /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension-gui.egg-link (link to .)
+[4.994s] Invoked command in '/home/ais/smartport_ws/build/dimension_gui' returned '0': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build
+[4.996s] Invoking command in '/home/ais/smartport_ws/src/dimension_gui': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dimension_gui build --build-base /home/ais/smartport_ws/build/dimension_gui/build install --record /home/ais/smartport_ws/build/dimension_gui/install.log --single-version-externally-managed install_data --force
+[5.853s] running egg_info
+[5.853s] writing ../../build/dimension_gui/dimension_gui.egg-info/PKG-INFO
+[5.853s] writing dependency_links to ../../build/dimension_gui/dimension_gui.egg-info/dependency_links.txt
+[5.853s] writing entry points to ../../build/dimension_gui/dimension_gui.egg-info/entry_points.txt
+[5.853s] writing requirements to ../../build/dimension_gui/dimension_gui.egg-info/requires.txt
+[5.854s] writing top-level names to ../../build/dimension_gui/dimension_gui.egg-info/top_level.txt
+[5.857s] reading manifest file '../../build/dimension_gui/dimension_gui.egg-info/SOURCES.txt'
+[5.858s] adding license file 'LICENSE'
+[5.861s] writing manifest file '../../build/dimension_gui/dimension_gui.egg-info/SOURCES.txt'
+[5.861s] running build
+[5.862s] running build_py
+[5.862s] creating /home/ais/smartport_ws/build/dimension_gui/build
+[5.862s] creating /home/ais/smartport_ws/build/dimension_gui/build/lib
+[5.862s] creating /home/ais/smartport_ws/build/dimension_gui/build/lib/dimension_gui
+[5.862s] copying dimension_gui/dimension_gui.py -> /home/ais/smartport_ws/build/dimension_gui/build/lib/dimension_gui
+[5.863s] copying dimension_gui/__init__.py -> /home/ais/smartport_ws/build/dimension_gui/build/lib/dimension_gui
+[5.863s] running install
+[5.863s] running install_lib
+[5.863s] creating /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui
+[5.863s] copying /home/ais/smartport_ws/build/dimension_gui/build/lib/dimension_gui/dimension_gui.py -> /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui
+[5.864s] copying /home/ais/smartport_ws/build/dimension_gui/build/lib/dimension_gui/__init__.py -> /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui
+[5.864s] byte-compiling /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui/dimension_gui.py to dimension_gui.cpython-310.pyc
+[5.866s] byte-compiling /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui/__init__.py to __init__.cpython-310.pyc
+[5.867s] running install_data
+[5.867s] copying resource/dimension_gui -> /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index/packages
+[5.867s] copying resource/dimension_system -> /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index/packages
+[5.868s] copying package.xml -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_gui
+[5.872s] copying launch/dimension_system.launch.py -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/launch
+[5.873s] copying launch/dimension_system.launch.py -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_system/launch
+[5.873s] running install_egg_info
+[5.873s] Copying ../../build/dimension_gui/dimension_gui.egg-info to /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension_gui-0.1.0-py3.10.egg-info
+[5.874s] running install_scripts
+[5.918s] Installing dimension_gui script to /home/ais/smartport_ws/install/dimension_gui/lib/dimension_gui
+[5.920s] writing list of installed files to '/home/ais/smartport_ws/build/dimension_gui/install.log'
+[5.967s] Invoked command in '/home/ais/smartport_ws/src/dimension_gui' returned '0': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dimension_gui build --build-base /home/ais/smartport_ws/build/dimension_gui/build install --record /home/ais/smartport_ws/build/dimension_gui/install.log --single-version-externally-managed install_data --force

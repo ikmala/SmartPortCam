@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tariff_calculator.egg-info/PKG-INFO
+writing dependency_links to tariff_calculator.egg-info/dependency_links.txt
+writing entry points to tariff_calculator.egg-info/entry_points.txt
+writing requirements to tariff_calculator.egg-info/requires.txt
+writing top-level names to tariff_calculator.egg-info/top_level.txt
+reading manifest file 'tariff_calculator.egg-info/SOURCES.txt'
+writing manifest file 'tariff_calculator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ais/smartport_ws/install/tariff_calculator/lib/python3.10/site-packages/tariff-calculator.egg-link (link to .)
+Installing tariff_calculator script to /home/ais/smartport_ws/install/tariff_calculator/lib/tariff_calculator
+
+Installed /home/ais/smartport_ws/build/tariff_calculator
+running symlink_data

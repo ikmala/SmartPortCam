@@ -1,0 +1,3 @@
+[console_scripts]
+dimension_estimator = dimension_estimator.dimension_estimator:main
+

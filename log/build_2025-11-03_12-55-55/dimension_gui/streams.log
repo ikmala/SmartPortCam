@@ -1,0 +1,30 @@
+[2.284s] Invoking command in '/home/ais/smartport_ws/build/dimension_gui': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build --no-deps symlink_data
+[2.919s] running develop
+[3.554s] running egg_info
+[3.554s] creating dimension_gui.egg-info
+[3.554s] writing dimension_gui.egg-info/PKG-INFO
+[3.555s] writing dependency_links to dimension_gui.egg-info/dependency_links.txt
+[3.555s] writing entry points to dimension_gui.egg-info/entry_points.txt
+[3.555s] writing requirements to dimension_gui.egg-info/requires.txt
+[3.555s] writing top-level names to dimension_gui.egg-info/top_level.txt
+[3.556s] writing manifest file 'dimension_gui.egg-info/SOURCES.txt'
+[3.560s] reading manifest file 'dimension_gui.egg-info/SOURCES.txt'
+[3.562s] writing manifest file 'dimension_gui.egg-info/SOURCES.txt'
+[3.566s] running build_ext
+[3.566s] Creating /home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages/dimension-gui.egg-link (link to .)
+[3.567s] Installing dimension_gui script to /home/ais/smartport_ws/install/dimension_gui/lib/dimension_gui
+[3.568s] 
+[3.568s] Installed /home/ais/smartport_ws/build/dimension_gui
+[3.568s] running symlink_data
+[3.569s] creating /home/ais/smartport_ws/install/dimension_gui/share/ament_index
+[3.569s] creating /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index
+[3.569s] creating /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index/packages
+[3.569s] symbolically linking /home/ais/smartport_ws/build/dimension_gui/resource/dimension_gui -> /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index/packages
+[3.569s] symbolically linking /home/ais/smartport_ws/build/dimension_gui/resource/dimension_system -> /home/ais/smartport_ws/install/dimension_gui/share/ament_index/resource_index/packages
+[3.570s] symbolically linking /home/ais/smartport_ws/build/dimension_gui/package.xml -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_gui
+[3.570s] creating /home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/launch
+[3.570s] symbolically linking /home/ais/smartport_ws/build/dimension_gui/launch/dimension_system.launch.py -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_gui/launch
+[3.570s] creating /home/ais/smartport_ws/install/dimension_gui/share/dimension_system
+[3.570s] creating /home/ais/smartport_ws/install/dimension_gui/share/dimension_system/launch
+[3.570s] symbolically linking /home/ais/smartport_ws/build/dimension_gui/launch/dimension_system.launch.py -> /home/ais/smartport_ws/install/dimension_gui/share/dimension_system/launch
+[3.619s] Invoked command in '/home/ais/smartport_ws/build/dimension_gui' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_gui/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_gui/build --no-deps symlink_data

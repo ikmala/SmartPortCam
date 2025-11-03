@@ -1,0 +1,39 @@
+[1.550s] Invoking command in '/home/ais/smartport_ws/build/yolov8_detector': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build
+[2.052s] running develop
+[2.433s] Removing /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8-detector.egg-link (link to .)
+[2.494s] Invoked command in '/home/ais/smartport_ws/build/yolov8_detector' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ais/smartport_ws/build/yolov8_detector/build
+[2.496s] Invoking command in '/home/ais/smartport_ws/src/yolov8_detector': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /home/ais/smartport_ws/build/yolov8_detector/build install --record /home/ais/smartport_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data --force
+[3.048s] running egg_info
+[3.049s] writing ../../build/yolov8_detector/yolov8_detector.egg-info/PKG-INFO
+[3.049s] writing dependency_links to ../../build/yolov8_detector/yolov8_detector.egg-info/dependency_links.txt
+[3.050s] writing entry points to ../../build/yolov8_detector/yolov8_detector.egg-info/entry_points.txt
+[3.050s] writing requirements to ../../build/yolov8_detector/yolov8_detector.egg-info/requires.txt
+[3.050s] writing top-level names to ../../build/yolov8_detector/yolov8_detector.egg-info/top_level.txt
+[3.053s] reading manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[3.054s] adding license file 'LICENSE'
+[3.055s] writing manifest file '../../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[3.055s] running build
+[3.055s] running build_py
+[3.055s] creating /home/ais/smartport_ws/build/yolov8_detector/build
+[3.056s] creating /home/ais/smartport_ws/build/yolov8_detector/build/lib
+[3.056s] creating /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+[3.056s] copying yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+[3.056s] copying yolov8_detector/__init__.py -> /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector
+[3.056s] running install
+[3.056s] running install_lib
+[3.058s] creating /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[3.058s] copying /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector/yolov8_detector.py -> /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[3.058s] copying /home/ais/smartport_ws/build/yolov8_detector/build/lib/yolov8_detector/__init__.py -> /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector
+[3.059s] byte-compiling /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/yolov8_detector.py to yolov8_detector.cpython-310.pyc
+[3.061s] byte-compiling /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector/__init__.py to __init__.cpython-310.pyc
+[3.062s] running install_data
+[3.062s] copying resource/yolov8_detector -> /home/ais/smartport_ws/install/yolov8_detector/share/ament_index/resource_index/packages
+[3.062s] copying package.xml -> /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector
+[3.062s] creating /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/launch
+[3.062s] copying launch/yolov8_with_dimensions.launch.py -> /home/ais/smartport_ws/install/yolov8_detector/share/yolov8_detector/launch
+[3.063s] running install_egg_info
+[3.065s] Copying ../../build/yolov8_detector/yolov8_detector.egg-info to /home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.1.0-py3.10.egg-info
+[3.066s] running install_scripts
+[3.096s] Installing yolov8_detector script to /home/ais/smartport_ws/install/yolov8_detector/lib/yolov8_detector
+[3.097s] writing list of installed files to '/home/ais/smartport_ws/build/yolov8_detector/install.log'
+[3.141s] Invoked command in '/home/ais/smartport_ws/src/yolov8_detector' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/yolov8_detector/lib/python3.10/site-packages:/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_detector build --build-base /home/ais/smartport_ws/build/yolov8_detector/build install --record /home/ais/smartport_ws/build/yolov8_detector/install.log --single-version-externally-managed install_data --force

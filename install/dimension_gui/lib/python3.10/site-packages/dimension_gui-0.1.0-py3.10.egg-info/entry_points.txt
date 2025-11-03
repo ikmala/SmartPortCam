@@ -1,0 +1,3 @@
+[console_scripts]
+dimension_gui = dimension_gui.dimension_gui:main
+

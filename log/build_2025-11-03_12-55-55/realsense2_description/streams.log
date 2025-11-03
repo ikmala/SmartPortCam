@@ -1,0 +1,69 @@
+[0.012s] Invoking command in '/home/ais/smartport_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ais/smartport_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/realsense2_description
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.700s] -- Configuring done
+[0.704s] -- Generating done
+[0.705s] -- Build files have been written to: /home/ais/smartport_ws/build/realsense2_description
+[0.710s] Invoked command in '/home/ais/smartport_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ais/smartport_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/realsense2_description
+[0.712s] Invoking command in '/home/ais/smartport_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_description -- -j8 -l8
+[0.756s] Invoked command in '/home/ais/smartport_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ais/smartport_ws/build/realsense2_description -- -j8 -l8
+[0.758s] Invoking command in '/home/ais/smartport_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_description
+[0.766s] -- Install configuration: ""
+[0.767s] -- Execute custom install script
+[0.768s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py
+[0.778s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py
+[0.789s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/d405.stl
+[0.800s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl
+[0.810s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae
+[0.821s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl
+[0.832s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae
+[0.842s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl
+[0.852s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl
+[0.862s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz
+[0.873s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d405.urdf.xacro
+[0.882s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro
+[0.893s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro
+[0.902s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro
+[0.913s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro
+[0.922s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro
+[0.931s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro
+[0.940s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro
+[0.949s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro
+[0.958s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro
+[0.967s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d405_camera.urdf.xacro
+[0.977s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro
+[0.987s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro
+[0.997s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro
+[1.006s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro
+[1.015s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro
+[1.024s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro
+[1.033s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro
+[1.042s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description
+[1.052s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description
+[1.062s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh
+[1.072s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv
+[1.082s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/environment/path.sh
+[1.092s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv
+[1.102s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/local_setup.bash
+[1.111s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/local_setup.sh
+[1.121s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh
+[1.131s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv
+[1.140s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.dsv
+[1.150s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description
+[1.159s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+[1.169s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+[1.179s] -- Symlinking: /home/ais/smartport_ws/install/realsense2_description/share/realsense2_description/package.xml
+[1.192s] Invoked command in '/home/ais/smartport_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ais/smartport_ws/build/realsense2_description

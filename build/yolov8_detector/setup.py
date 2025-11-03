@@ -1,1 +1,0 @@
-/home/ais/smartport_ws/src/yolov8_detector/setup.py

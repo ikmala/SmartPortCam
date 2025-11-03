@@ -1,0 +1,281 @@
+[0.016s] Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ais/smartport_ws/src/vehicle_dimension_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/vehicle_dimension_msgs
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.371s] -- The CXX compiler identification is GNU 11.4.0
+[0.382s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.476s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.775s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.854s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.899s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.044s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.409s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.031s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.033s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.065s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.065s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.065s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.089s] -- Found PythonExtra: .so  
+[2.154s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.191s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.194s] -- Added test 'lint_cmake' to check CMake code style
+[2.196s] -- Added test 'xmllint' to check XML markup files
+[2.201s] -- Configuring done
+[2.249s] -- Generating done
+[2.267s] -- Build files have been written to: /home/ais/smartport_ws/build/vehicle_dimension_msgs
+[2.274s] Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ais/smartport_ws/src/vehicle_dimension_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ais/smartport_ws/install/vehicle_dimension_msgs
+[2.276s] Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8
+[2.322s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.337s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.353s] [  3%] Built target ament_cmake_python_symlink_vehicle_dimension_msgs
+[2.813s] running egg_info
+[2.813s] creating vehicle_dimension_msgs.egg-info
+[2.814s] writing vehicle_dimension_msgs.egg-info/PKG-INFO
+[2.814s] writing dependency_links to vehicle_dimension_msgs.egg-info/dependency_links.txt
+[2.814s] writing top-level names to vehicle_dimension_msgs.egg-info/top_level.txt
+[2.814s] writing manifest file 'vehicle_dimension_msgs.egg-info/SOURCES.txt'
+[2.818s] reading manifest file 'vehicle_dimension_msgs.egg-info/SOURCES.txt'
+[2.819s] writing manifest file 'vehicle_dimension_msgs.egg-info/SOURCES.txt'
+[2.856s] [  3%] Built target ament_cmake_python_build_vehicle_dimension_msgs_egg
+[3.026s] [  3%] Built target vehicle_dimension_msgs__cpp
+[3.049s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.050s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.058s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.064s] [ 10%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__functions.c.o[0m
+[3.064s] [ 12%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__functions.c.o[0m
+[3.073s] [ 14%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__functions.c.o[0m
+[3.077s] [ 16%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__functions.c.o[0m
+[3.269s] [ 18%] [32m[1mLinking C shared library libvehicle_dimension_msgs__rosidl_generator_c.so[0m
+[3.352s] [ 18%] Built target vehicle_dimension_msgs__rosidl_generator_c
+[3.385s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.399s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.402s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.048s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_dimension_msgs/msg/vehicle_dimension__type_support.cpp.o[0m
+[4.067s] [ 27%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_dimension_msgs/msg/vehicle_bounding_box_array__type_support.cpp.o[0m
+[4.074s] [ 29%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_dimension_msgs/msg/vehicle_bounding_box__type_support.cpp.o[0m
+[4.361s] [ 30%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_dimension_msgs/msg/detail/dds_fastrtps/vehicle_dimension__type_support.cpp.o[0m
+[4.365s] [ 32%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support.cpp.o[0m
+[4.518s] [ 34%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_dimension_msgs/msg/vehicle_dimension__type_support.cpp.o[0m
+[4.646s] [ 36%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_dimension_msgs/msg/vehicle_bounding_box__type_support.cpp.o[0m
+[4.788s] [ 38%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support.c.o[0m
+[4.797s] [ 40%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_dimension_msgs/msg/vehicle_bounding_box_array__type_support.cpp.o[0m
+[4.855s] [ 41%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support_c.cpp.o[0m
+[4.917s] [ 43%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_dimension_msgs/msg/vehicle_tariff__type_support.cpp.o[0m
+[4.944s] [ 45%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support.c.o[0m
+[4.971s] [ 47%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support_c.cpp.o[0m
+[5.017s] [ 49%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support_c.cpp.o[0m
+[5.060s] [ 50%] [32m[1mLinking CXX shared library libvehicle_dimension_msgs__rosidl_typesupport_c.so[0m
+[5.061s] [ 52%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support.c.o[0m
+[5.064s] [ 54%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_dimension_msgs/msg/vehicle_tariff__type_support.cpp.o[0m
+[5.199s] [ 54%] Built target vehicle_dimension_msgs__rosidl_typesupport_c
+[5.212s] [ 56%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support.c.o[0m
+[5.230s] [ 58%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support_c.cpp.o[0m
+[5.375s] [ 60%] [32m[1mLinking C shared library libvehicle_dimension_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.526s] [ 60%] Built target vehicle_dimension_msgs__rosidl_typesupport_introspection_c
+[5.563s] [ 61%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support.cpp.o[0m
+[5.581s] [ 63%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support.cpp.o[0m
+[5.731s] [ 65%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_dimension_msgs/msg/detail/dds_fastrtps/vehicle_bounding_box__type_support.cpp.o[0m
+[5.804s] [ 67%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_dimension_msgs/msg/detail/dds_fastrtps/vehicle_bounding_box_array__type_support.cpp.o[0m
+[5.974s] [ 69%] [32m[1mLinking CXX shared library libvehicle_dimension_msgs__rosidl_typesupport_cpp.so[0m
+[6.023s] [ 70%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_dimension_msgs/msg/detail/dds_fastrtps/vehicle_tariff__type_support.cpp.o[0m
+[6.159s] [ 72%] [32mBuilding CXX object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support.cpp.o[0m
+[6.226s] [ 72%] Built target vehicle_dimension_msgs__rosidl_typesupport_cpp
+[6.597s] [ 74%] [32m[1mLinking CXX shared library libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.023s] [ 74%] Built target vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c
+[7.568s] [ 76%] [32m[1mLinking CXX shared library libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.643s] [ 78%] [32m[1mLinking CXX shared library libvehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.757s] [ 78%] Built target vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp
+[7.835s] [ 78%] Built target vehicle_dimension_msgs__rosidl_typesupport_introspection_cpp
+[7.901s] [ 78%] Built target vehicle_dimension_msgs
+[7.948s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.652s] [ 80%] Built target vehicle_dimension_msgs__py
+[9.716s] [ 81%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_dimension_msgs/msg/_vehicle_dimension_s.c.o[0m
+[9.732s] [ 83%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_dimension_msgs/msg/_vehicle_tariff_s.c.o[0m
+[9.733s] [ 85%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_dimension_msgs/msg/_vehicle_bounding_box_s.c.o[0m
+[9.734s] [ 87%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_dimension_msgs/msg/_vehicle_bounding_box_array_s.c.o[0m
+[10.236s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_dimension_msgs/libvehicle_dimension_msgs__rosidl_generator_py.so[0m
+[10.362s] [ 89%] Built target vehicle_dimension_msgs__rosidl_generator_py
+[10.423s] [ 90%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.431s] [ 92%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.435s] [ 94%] [32mBuilding C object CMakeFiles/vehicle_dimension_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.789s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.921s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.962s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.962s] [100%] Built target vehicle_dimension_msgs__rosidl_typesupport_c__pyext
+[11.077s] [100%] Built target vehicle_dimension_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.099s] [100%] Built target vehicle_dimension_msgs__rosidl_typesupport_introspection_c__pyext
+[11.130s] Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ais/smartport_ws/build/vehicle_dimension_msgs -- -j8 -l8
+[11.156s] Invoking command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs
+[11.172s] -- Install configuration: ""
+[11.174s] -- Execute custom install script
+[11.175s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/ament_index/resource_index/rosidl_interfaces/vehicle_dimension_msgs
+[11.208s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__functions.h
+[11.227s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__struct.h
+[11.259s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support.h
+[11.294s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__functions.h
+[11.317s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__struct.h
+[11.339s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support.h
+[11.360s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__functions.h
+[11.394s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__struct.h
+[11.432s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support.h
+[11.464s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__functions.h
+[11.485s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__struct.h
+[11.504s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support.h
+[11.524s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.545s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_bounding_box.h
+[11.565s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_bounding_box_array.h
+[11.586s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_dimension.h
+[11.607s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_tariff.h
+[11.628s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/library_path.sh
+[11.648s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/library_path.dsv
+[11.670s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__rosidl_typesupport_fastrtps_c.h
+[11.691s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__rosidl_typesupport_fastrtps_c.h
+[11.713s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__rosidl_typesupport_fastrtps_c.h
+[11.734s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__rosidl_typesupport_fastrtps_c.h
+[11.755s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.780s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__rosidl_typesupport_introspection_c.h
+[11.796s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__rosidl_typesupport_introspection_c.h
+[11.817s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__rosidl_typesupport_introspection_c.h
+[11.837s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__rosidl_typesupport_introspection_c.h
+[11.858s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.879s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__builder.hpp
+[11.899s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__struct.hpp
+[11.919s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__traits.hpp
+[11.940s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__type_support.hpp
+[11.963s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__builder.hpp
+[11.979s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__struct.hpp
+[11.999s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__traits.hpp
+[12.030s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__type_support.hpp
+[12.064s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__builder.hpp
+[12.079s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__struct.hpp
+[12.102s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__traits.hpp
+[12.123s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__type_support.hpp
+[12.142s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__builder.hpp
+[12.162s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__struct.hpp
+[12.182s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__traits.hpp
+[12.201s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__type_support.hpp
+[12.221s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.242s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_bounding_box.hpp
+[12.262s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_bounding_box_array.hpp
+[12.281s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_dimension.hpp
+[12.301s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/vehicle_tariff.hpp
+[12.327s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[12.348s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.373s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__rosidl_typesupport_fastrtps_cpp.hpp
+[12.415s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__rosidl_typesupport_fastrtps_cpp.hpp
+[12.455s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.498s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[12.534s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_bounding_box_array__rosidl_typesupport_introspection_cpp.hpp
+[12.578s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_dimension__rosidl_typesupport_introspection_cpp.hpp
+[12.614s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/include/vehicle_dimension_msgs/vehicle_dimension_msgs/msg/detail/vehicle_tariff__rosidl_typesupport_introspection_cpp.hpp
+[12.652s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/pythonpath.sh
+[12.691s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/pythonpath.dsv
+[12.735s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[12.773s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[12.815s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[12.864s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[12.907s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/__init__.py
+[12.936s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_c.c
+[12.974s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.015s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/_vehicle_dimension_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.055s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/libvehicle_dimension_msgs__rosidl_generator_py.so
+[13.092s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/__init__.py
+[13.113s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box.py
+[13.140s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box_array.py
+[13.168s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box_array_s.c
+[13.184s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box_s.c
+[13.205s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_dimension.py
+[13.234s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_dimension_s.c
+[13.274s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_tariff.py
+[13.294s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_tariff_s.c
+[13.319s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.336s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.356s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.382s] -- Up-to-date symlink: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.382s] -- Up-to-date symlink: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.383s] -- Up-to-date symlink: /home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/vehicle_dimension_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.384s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleDimension.idl
+[13.404s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleBoundingBox.idl
+[13.426s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleBoundingBoxArray.idl
+[13.448s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleTariff.idl
+[13.468s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleDimension.msg
+[13.487s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleBoundingBox.msg
+[13.508s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleBoundingBoxArray.msg
+[13.527s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/msg/VehicleTariff.msg
+[13.546s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/ament_index/resource_index/package_run_dependencies/vehicle_dimension_msgs
+[13.565s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/ament_index/resource_index/parent_prefix_path/vehicle_dimension_msgs
+[13.584s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/ament_prefix_path.sh
+[13.602s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/ament_prefix_path.dsv
+[13.622s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/path.sh
+[13.642s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/environment/path.dsv
+[13.662s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/local_setup.bash
+[13.681s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/local_setup.sh
+[13.699s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/local_setup.zsh
+[13.713s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/local_setup.dsv
+[13.731s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.dsv
+[13.744s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/ament_index/resource_index/packages/vehicle_dimension_msgs
+[13.758s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/rosidl_cmake-extras.cmake
+[13.771s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.785s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.799s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.812s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.825s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.838s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.850s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgsConfig.cmake
+[13.862s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgsConfig-version.cmake
+[13.874s] -- Symlinking: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/package.xml
+[13.885s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_generator_c.so
+[13.886s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_generator_c.so" to ""
+[13.886s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.so
+[13.887s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.887s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_introspection_c.so
+[13.887s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.888s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_c.so
+[13.888s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_c.so" to ""
+[13.888s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.889s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.889s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.so
+[13.890s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.890s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_cpp.so
+[13.891s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_typesupport_cpp.so" to ""
+[13.942s] Listing '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/__init__.py'...
+[13.942s] Listing '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/__init__.py'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box.py'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_bounding_box_array.py'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_dimension.py'...
+[13.942s] Compiling '/home/ais/smartport_ws/install/vehicle_dimension_msgs/local/lib/python3.10/dist-packages/vehicle_dimension_msgs/msg/_vehicle_tariff.py'...
+[13.949s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_generator_py.so
+[13.949s] -- Set runtime path of "/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib/libvehicle_dimension_msgs__rosidl_generator_py.so" to ""
+[13.949s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_generator_cExport.cmake
+[13.950s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.950s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.950s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.951s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.951s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.951s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_cExport.cmake
+[13.951s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.952s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_generator_cppExport.cmake
+[13.952s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.952s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.952s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.953s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.953s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_cppExport.cmake
+[13.953s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/vehicle_dimension_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.954s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_generator_pyExport.cmake
+[13.954s] -- Installing: /home/ais/smartport_ws/install/vehicle_dimension_msgs/share/vehicle_dimension_msgs/cmake/export_vehicle_dimension_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.957s] Invoked command in '/home/ais/smartport_ws/build/vehicle_dimension_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ais/smartport_ws/build/vehicle_dimension_msgs

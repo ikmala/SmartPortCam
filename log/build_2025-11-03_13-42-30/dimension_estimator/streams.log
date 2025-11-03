@@ -1,0 +1,17 @@
+[3.862s] Invoking command in '/home/ais/smartport_ws/build/dimension_estimator': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_estimator/build --no-deps symlink_data
+[4.528s] running develop
+[5.109s] running egg_info
+[5.109s] writing dimension_estimator.egg-info/PKG-INFO
+[5.109s] writing dependency_links to dimension_estimator.egg-info/dependency_links.txt
+[5.110s] writing entry points to dimension_estimator.egg-info/entry_points.txt
+[5.110s] writing requirements to dimension_estimator.egg-info/requires.txt
+[5.110s] writing top-level names to dimension_estimator.egg-info/top_level.txt
+[5.112s] reading manifest file 'dimension_estimator.egg-info/SOURCES.txt'
+[5.114s] writing manifest file 'dimension_estimator.egg-info/SOURCES.txt'
+[5.117s] running build_ext
+[5.118s] Creating /home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages/dimension-estimator.egg-link (link to .)
+[5.119s] Installing dimension_estimator script to /home/ais/smartport_ws/install/dimension_estimator/lib/dimension_estimator
+[5.120s] 
+[5.120s] Installed /home/ais/smartport_ws/build/dimension_estimator
+[5.120s] running symlink_data
+[5.183s] Invoked command in '/home/ais/smartport_ws/build/dimension_estimator' returned '0': LD_LIBRARY_PATH=/home/ais/smartport_ws/install/vehicle_dimension_msgs/lib:/home/ais/smartport_ws/install/realsense2_camera/lib:/home/ais/smartport_ws/install/realsense2_camera_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ais/smartport_ws/build/dimension_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ais/smartport_ws/install/dimension_estimator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ais/smartport_ws/build/dimension_estimator/build --no-deps symlink_data
