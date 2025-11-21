@@ -1,0 +1,100 @@
+
+MODE 1 – PIPELINE PERSIAPAN DATA & TRAINING MODEL
+
+Lingkungan dasar (semua terminal):
+ - `source ~/smartport_ws/install/setup.bash`
+
+1. Rekam data RealSense ke rosbag
+   - Terminal A: jalankan kamera seperti biasa  
+     `ros2 launch realsense2_camera rs_launch.py align_depth.enable:=true enable_sync:=true enable_infra1:=false enable_infra2:=false pointcloud.enable:=false`
+   - Terminal B: rekam topik yang diperlukan (RGB + depth + info)  
+     `ros2 bag record -o ~/datasets/smartport_$(date +%Y%m%d_%H%M) /camera/camera/color/image_raw /camera/camera/aligned_depth_to_color/image_raw /camera/camera/aligned_depth_to_color/camera_info`
+
+2. Ekspor rosbag menjadi frame gambar (oros2 bag play <path_bag> --clock` (sesuaikan topik bila perlu dengan `--remap`).
+   - Pada terminal lain, simpan gambar menggunakan `ipsional: simpan juga depth)
+   - Putar kembali rosbag: `mage_saver`:  
+     `ros2 run image_view image_saver --ros-args -r image:=/camera/camera/color/image_raw -p save_all_image:=true -p filename_format:=/home/ais/datasets/frames/session1/frame%06i.jpg`
+     (ubah topik `image:=...` dan lokasi output sesuai kebutuhan).
+   - Hasil final untuk auto-label adalah folder `images/` (format JPG/PNG) yang selaras dengan metadata kamera bila diperlukan.
+
+3. Auto-label menggunakan model awal YOLOv8
+   - Pasang paket `ultralytics` (jika belum): `pip install ultralytics`
+   - Jalankan prediksi untuk menghasilkan label YOLO:  
+     `yolo task=detect mode=predict model=yolov8n.pt source=/path/to/images save_txt=True save_conf=True project=~/datasets/auto_label name=session1`
+   - Tinjau berkas `.txt` di `~/datasets/auto_label/session1/labels`. Koreksi manual bila perlu (misalnya dengan Label Studio/Roboflow).
+
+4. Siapkan dataset YAML untuk training
+   - Struktur yang disarankan:
+     ```
+     ~/datasets/custom_yolo/
+       images/train
+       images/val
+       labels/train
+       labels/val
+       data.yaml
+     ```
+   - Contoh `data.yaml`:
+     ```
+     path: /home/ais/datasets/custom_yolo
+     train: images/train
+     val: images/val
+     names: [car, motorcycle, bus, truck]
+     ```
+   - Pastikan berkas label mengikuti format YOLO (class_id cx cy w h ternormalisasi).
+
+5. Latih model kustom
+   - `yolo task=detect mode=train model=yolov8n.pt data=/home/ais/datasets/custom_yolo/data.yaml epochs=100 imgsz=640 batch=16 device=0 project=~/datasets/train_runs name=smartport_v1`
+   - Pantau metrik (mAP, precision, recall). Sesuaikan hiperparameter bila dibutuhkan.
+
+6. Deploy bobot terbaik ke ROS
+   - Setelah training selesai, salin `~/datasets/train_runs/smartport_v1/weights/best.pt` ke workspace, misalnya `/home/ais/smartport_ws/models/yolov8_smartport.pt`.
+   - Saat menjalankan node detektor, ubah parameter `model_path` ke bobot baru tersebut.
+
+
+MODE 2 – MENJALANKAN SISTEM SMARTPORTCAM (INFERENSI & DIMENSI)
+==============================================================
+
+Setiap terminal selalu `source ~/smartport_ws/install/setup.bash` terlebih dahulu.
+
+Terminal 1 – RealSense (RGB + depth ter-align):
+```
+ros2 launch realsense2_camera rs_launch.py \
+  align_depth.enable:=true \
+  enable_sync:=true \
+  enable_infra1:=false \
+  enable_infra2:=false \
+  pointcloud.enable:=false
+```
+
+Terminal 2 – YOLOv8 detector:
+```
+ros2 run yolov8_detector yolov8_detector --ros-args \
+  -p model_path:=/home/ais/smartport_ws/yolov8n.pt \
+  -p image_topic:=/camera/camera/color/image_raw \
+  -p class_ids:="[2,3,5,7]" \
+  -p max_detections:=1 \
+  -p display_results:=true \
+  -p publish_annotated_image:=true
+```
+(ganti `model_path` ke bobot hasil training jika sudah tersedia)
+
+Terminal 3 – Dimension estimator:
+```
+ros2 run dimension_estimator dimension_estimator --ros-args \
+  -p bbox_topic:=/vehicle/bounding_boxes \
+  -p depth_image_topic:=/camera/camera/aligned_depth_to_color/image_raw \
+  -p depth_camera_info_topic:=/camera/camera/aligned_depth_to_color/camera_info \
+  -p min_valid_points:=200
+```
+
+Terminal 4 – Dimension GUI dashboard:
+```
+ros2 run dimension_gui dimension_gui --ros-args \
+  -p depth_camera_info_topic:=/camera/camera/aligned_depth_to_color/camera_info
+```
+
+(Opsional) Terminal 5 – Tariff calculator untuk menampilkan harga otomatis:
+```
+ros2 run tariff_calculator tariff_calculator
+```
+Node ini akan membaca `/vehicle/dimension_info`, menerbitkan `/vehicle/tariff_info`, dan menampilkan kategori serta tarif per kendaraan.
