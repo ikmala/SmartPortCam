@@ -1,0 +1,74 @@
+# =============================================================================
+# SmartPortCam — Konfigurasi Terpusat
+# Gunakan file ini dengan:
+#   ros2 run <pkg> <node> --ros-args --params-file config/smartport.yaml
+# atau lewat scripts/smartport_mode.py --params-file config/smartport.yaml
+# =============================================================================
+
+# --- YOLOv8 Detector ---------------------------------------------------------
+yolov8_detector:
+  ros__parameters:
+    model_path: "models/yolov8_smartport.pt"
+    engine_path: ""                          # isi path .engine untuk TensorRT
+    confidence_threshold: 0.70
+    iou_threshold: 0.45
+    class_ids: [2, 3, 5, 7]                 # COCO: car, motorcycle, bus, truck
+    image_topic: "/camera/camera/color/image_raw"
+    display_results: false
+    publish_annotated_image: true
+    log_detection_summary: true
+    max_detections: 1
+
+# --- Dimension Estimator -----------------------------------------------------
+dimension_estimator:
+  ros__parameters:
+    depth_scale: 0.001
+    min_depth_m: 0.5
+    max_depth_m: 20.0
+    min_valid_points: 200
+    voxel_size: 0.05
+    use_outlier_filter: true
+    bbox_topic: "/vehicle/bounding_boxes"
+    depth_image_topic: "/camera/camera/aligned_depth_to_color/image_raw"
+    depth_camera_info_topic: "/camera/camera/aligned_depth_to_color/camera_info"
+
+# --- Tariff Calculator -------------------------------------------------------
+tariff_calculator:
+  ros__parameters:
+    currency: "IDR"
+    dimension_unit: "mm"
+    # Aturan tarif berdasarkan panjang kendaraan (diurutkan dari terpendek)
+    # max_length_mm: -1 berarti tidak ada batas atas (kategori oversize)
+    dimension_rules: >
+      [
+        {"name": "motorcycle",    "max_length_mm": 2500.0,  "tariff": 20000.0},
+        {"name": "passenger_car", "max_length_mm": 5500.0,  "tariff": 50000.0},
+        {"name": "light_truck",   "max_length_mm": 8000.0,  "tariff": 90000.0},
+        {"name": "bus",           "max_length_mm": 12000.0, "tariff": 120000.0},
+        {"name": "oversize",      "max_length_mm": -1.0,    "tariff": 150000.0}
+      ]
+    class_tariffs: >
+      [
+        {"class_id": 3, "category": "motorcycle",    "tariff": 20000.0},
+        {"class_id": 2, "category": "passenger_car", "tariff": 50000.0},
+        {"class_id": 5, "category": "bus",           "tariff": 120000.0},
+        {"class_id": 7, "category": "heavy_truck",   "tariff": 150000.0}
+      ]
+
+# --- Dimension GUI -----------------------------------------------------------
+dimension_gui:
+  ros__parameters:
+    enable_gui: true
+    stale_timeout_sec: 2.0
+    depth_camera_info_topic: "/camera/camera/aligned_depth_to_color/camera_info"
+
+# --- Data Logger (PostgreSQL) ------------------------------------------------
+data_logger:
+  ros__parameters:
+    db_host: "localhost"
+    db_port: 5432
+    db_name: "smartportcam"
+    db_user: "smartport"
+    db_password: "smartport123"
+    # Nilai di atas bisa di-override lewat environment variable:
+    # POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD

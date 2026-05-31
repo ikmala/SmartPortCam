@@ -1,0 +1,11 @@
+string gate_id
+string gate_name
+string location
+string camera_serial
+float64 confidence_threshold
+int32 min_valid_points
+int32 max_detections
+bool start_immediately
+---
+bool success
+string message

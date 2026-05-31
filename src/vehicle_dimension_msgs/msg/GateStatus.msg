@@ -1,0 +1,14 @@
+std_msgs/Header header
+string gate_id
+string gate_name
+string location
+string camera_serial
+bool active
+bool camera_online
+bool proc_detector
+bool proc_estimator
+bool proc_tariff
+bool proc_logger
+uint32 total_detected
+string last_detection_iso
+string error_message

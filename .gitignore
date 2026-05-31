@@ -1,0 +1,35 @@
+node_modules
+
+# ROS
+build/
+install/
+log/
+devel/
+
+# Dataset
+datasets/
+*.db3
+*.bag
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment / secrets
+.env
+
+# Model weights (unduh terpisah, jangan di-commit)
+*.pt
+*.engine
+*.onnx
+
+# Web dashboard build output
+web_dashboard/dist/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
