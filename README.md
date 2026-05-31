@@ -647,5 +647,3 @@ rosdep install --from-paths src --ignore-src -r -y
 rm -rf build install log
 colcon build --symlink-install
 ```
-#   S m a r t P o r t C a m  
- 
